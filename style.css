@@ -1,0 +1,32 @@
+/* style.css */
+body {
+  background-color: blueviolet;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#form {
+  background-color: #ffffff;
+  width: 25%;
+  border-radius: 4px;
+  margin: 120px auto;
+  padding: 50px;
+  box-shadow: 10px 10px 5px rgb(82, 11, 77);
+}
+
+#btn {
+  color: #ffffff;
+  background-color: rgb(108, 22, 189);
+  padding: 10px;
+  font-size: large;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 570px) {
+  #form {
+    width: 65%;
+    padding: 40px;
+  }
+}
